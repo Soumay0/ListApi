@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
     res.send('API is running...');
 });
 
-app.use('/api/products', productRouter);
+export default app;
 
